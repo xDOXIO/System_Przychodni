@@ -1,0 +1,46 @@
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csprojAssemblyReference.cache
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csproj.CoreCompileInputs.cache
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.exe
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.pdb
+E:\A Studia\3 SEMESTR\PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csprojAssemblyReference.cache
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\48503\Desktop\Projekt PO\Projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csprojAssemblyReference.cache
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csproj.CoreCompileInputs.cache
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Downloads\muzyka\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csprojAssemblyReference.cache
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\48503\Desktop\Projekt PO\projekt 3\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csprojAssemblyReference.cache
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csproj.CoreCompileInputs.cache
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Desktop\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csprojAssemblyReference.cache
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.csproj.CoreCompileInputs.cache
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Desktop\projekt\projekt\SystemRejestracjiWPrzychodni\obj\Debug\SystemRejestracjiWPrzychodni.pdb

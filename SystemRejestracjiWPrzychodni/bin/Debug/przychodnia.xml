@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Przychodnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nazwa>Zdrowko</Nazwa>
+  <Lekarze>
+    <LekarzSpecjalista>
+      <Imie>Jan</Imie>
+      <Nazwisko>Janowski</Nazwisko>
+      <DataUrodzenia>1982-03-15T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>Okulista</TypSpecjalizacji>
+    </LekarzSpecjalista>
+    <LekarzSpecjalista>
+      <Imie>Jan</Imie>
+      <Nazwisko>But</Nazwisko>
+      <DataUrodzenia>1974-05-16T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>Kardiolog</TypSpecjalizacji>
+    </LekarzSpecjalista>
+    <LekarzSpecjalista>
+      <Imie>Beata</Imie>
+      <Nazwisko>Nowak</Nazwisko>
+      <DataUrodzenia>1966-11-22T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>BRAK</TypSpecjalizacji>
+    </LekarzSpecjalista>
+    <LekarzSpecjalista>
+      <Imie>Anna</Imie>
+      <Nazwisko>Mysza</Nazwisko>
+      <DataUrodzenia>1970-07-22T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>Dentysta</TypSpecjalizacji>
+    </LekarzSpecjalista>
+    <LekarzSpecjalista>
+      <Imie>Krzysztof</Imie>
+      <Nazwisko>Ratajski</Nazwisko>
+      <DataUrodzenia>1975-05-17T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>Pediatra</TypSpecjalizacji>
+    </LekarzSpecjalista>
+    <LekarzSpecjalista>
+      <Imie>Pawel</Imie>
+      <Nazwisko>Paczul</Nazwisko>
+      <DataUrodzenia>1977-03-01T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>Chirurg</TypSpecjalizacji>
+    </LekarzSpecjalista>
+    <LekarzSpecjalista>
+      <Imie>Wojciech</Imie>
+      <Nazwisko>Kowalczyk</Nazwisko>
+      <DataUrodzenia>1969-10-12T00:00:00</DataUrodzenia>
+      <TypSpecjalizacji>Laryngolog</TypSpecjalizacji>
+    </LekarzSpecjalista>
+  </Lekarze>
+  <Uslugi>
+    <Usluga xsi:type="PodstawowaOpiekaZdrowotna">
+      <Nazwa>Poradnia internistyczna dla doroslych</Nazwa>
+      <Cena>50</Cena>
+      <CzasTrwania>30</CzasTrwania>
+    </Usluga>
+    <Usluga xsi:type="PodstawowaOpiekaZdrowotna">
+      <Nazwa>Poradnia pediatryczna</Nazwa>
+      <Cena>60</Cena>
+      <CzasTrwania>30</CzasTrwania>
+    </Usluga>
+    <Usluga xsi:type="AmbulatoryjnaOpiekaSpecjalistyczna">
+      <Nazwa>Poradnia laryngologiczna</Nazwa>
+      <Cena>100</Cena>
+      <CzasTrwania>60</CzasTrwania>
+    </Usluga>
+    <Usluga xsi:type="AmbulatoryjnaOpiekaSpecjalistyczna">
+      <Nazwa>Poradnia okulistyczna</Nazwa>
+      <Cena>100</Cena>
+      <CzasTrwania>60</CzasTrwania>
+    </Usluga>
+    <Usluga xsi:type="PracowniaDiagnostyczna">
+      <Nazwa>EKG</Nazwa>
+      <Cena>40</Cena>
+      <CzasTrwania>10</CzasTrwania>
+    </Usluga>
+    <Usluga xsi:type="PracowniaDiagnostyczna">
+      <Nazwa>USG</Nazwa>
+      <Cena>40</Cena>
+      <CzasTrwania>10</CzasTrwania>
+    </Usluga>
+  </Uslugi>
+  <Wizyty>
+    <Wizyta>
+      <Pacjent>
+        <Imie>Robert</Imie>
+        <Nazwisko>Dziwak</Nazwisko>
+        <Pesel>12345678910</Pesel>
+        <DataUrodzeniaPacjenta>2000-05-12T00:00:00</DataUrodzeniaPacjenta>
+      </Pacjent>
+      <LekarzSpecjalista>
+        <Imie>Jan</Imie>
+        <Nazwisko>But</Nazwisko>
+        <DataUrodzenia>1974-05-16T00:00:00</DataUrodzenia>
+        <TypSpecjalizacji>Kardiolog</TypSpecjalizacji>
+      </LekarzSpecjalista>
+      <DataGodzinaWizyty>2021-02-10T10:30:00</DataGodzinaWizyty>
+      <Usluga xsi:type="PodstawowaOpiekaZdrowotna">
+        <Nazwa>Poradnia internistyczna dla doroslych</Nazwa>
+        <Cena>50</Cena>
+        <CzasTrwania>30</CzasTrwania>
+      </Usluga>
+    </Wizyta>
+    <Wizyta>
+      <Pacjent>
+        <Imie>Kornel</Imie>
+        <Nazwisko>Makuszyński</Nazwisko>
+        <Pesel>0021504582</Pesel>
+        <DataUrodzeniaPacjenta>1996-02-12T00:00:00</DataUrodzeniaPacjenta>
+      </Pacjent>
+      <LekarzSpecjalista>
+        <Imie>Anna</Imie>
+        <Nazwisko>Mysza</Nazwisko>
+        <DataUrodzenia>1970-07-22T00:00:00</DataUrodzenia>
+        <TypSpecjalizacji>Dentysta</TypSpecjalizacji>
+      </LekarzSpecjalista>
+      <DataGodzinaWizyty>2021-02-11T15:15:00</DataGodzinaWizyty>
+      <Usluga xsi:type="PodstawowaOpiekaZdrowotna">
+        <Nazwa>Poradnia pediatryczna</Nazwa>
+        <Cena>60</Cena>
+        <CzasTrwania>30</CzasTrwania>
+      </Usluga>
+    </Wizyta>
+  </Wizyty>
+  <Pacjenci>
+    <Pacjent>
+      <Imie>Robert</Imie>
+      <Nazwisko>Dziwak</Nazwisko>
+      <Pesel>12345678910</Pesel>
+      <DataUrodzeniaPacjenta>2000-05-12T00:00:00</DataUrodzeniaPacjenta>
+    </Pacjent>
+    <Pacjent>
+      <Imie>Kornel</Imie>
+      <Nazwisko>Makuszyński</Nazwisko>
+      <Pesel>0021504582</Pesel>
+      <DataUrodzeniaPacjenta>1996-02-12T00:00:00</DataUrodzeniaPacjenta>
+    </Pacjent>
+    <Pacjent xsi:type="PacjentZagraniczny">
+      <Imie>Pablo</Imie>
+      <Nazwisko>Escobar</Nazwisko>
+      <DataUrodzeniaPacjenta>1982-06-15T00:00:00</DataUrodzeniaPacjenta>
+      <NrEKUZ>582752197519521</NrEKUZ>
+    </Pacjent>
+  </Pacjenci>
+</Przychodnia>

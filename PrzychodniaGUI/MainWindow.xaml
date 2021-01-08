@@ -1,0 +1,29 @@
+﻿<Window x:Class="PrzychodniaGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrzychodniaGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="509*"/>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="190*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Przychodnia Medicare&#xD;&#xA;" HorizontalAlignment="Left" Height="73" Margin="194,10,0,0" VerticalAlignment="Top" Width="407" FontWeight="Bold" FontSize="36" Grid.ColumnSpan="2"/>
+        <Label Content="Logowanie:&#xD;&#xA;" HorizontalAlignment="Left" Height="45" Margin="51,88,0,0" VerticalAlignment="Top" Width="317" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="lbImie" Content="Imię:" HorizontalAlignment="Left" Height="50" Margin="51,138,0,0" VerticalAlignment="Top" Width="261" FontSize="20"/>
+        <Label x:Name="lbNazwisko" Content="Nazwisko:" HorizontalAlignment="Left" Height="50" Margin="51,188,0,0" VerticalAlignment="Top" Width="261" FontSize="20"/>
+        <Label Content="Nie jesteś jeszcze naszym pacjentem?&#xD;&#xA;                   Zarejestruj się." HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Grid.Column="1" Height="50" Width="263" FontSize="15" Grid.ColumnSpan="2"/>
+        <Label Content="                Nie jesteś z Polski?&#xD;&#xA;         Zarejestruj się z kartą EKUZ." HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" Grid.Column="1" Height="54" Width="263" FontSize="15" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnZaloguj" Content="Zaloguj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" Margin="68,321,0,0" Height="51" Click="BtnZaloguj_Click"/>
+        <Button x:Name="btnRejestracjaZagraniczna" Content="Rejestracja Zagraniczna" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" Margin="60,321,0,0" Height="51" Grid.ColumnSpan="2" Grid.Column="1" Click="btnRejestracjaZagraniczna_Click"/>
+        <Button x:Name="btnZarejestruj" Content="Zarejestruj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" Margin="60,193,0,0" Height="51" Grid.ColumnSpan="2" Grid.Column="1" Click="btnZarejestruj_Click"/>
+        <TextBox x:Name="txtNazwisko" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" Margin="164,193,0,0"/>
+        <TextBox  x:Name="txtImie" HorizontalAlignment="Left" Height="45" Margin="164,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" RenderTransformOrigin="1.794,5.722"/>
+        <Button x:Name="btnWyjdz" Content="Wyjdź" HorizontalAlignment="Left" Height="51" Margin="288,321,0,0" VerticalAlignment="Top" Width="179" Click="btnWyjdz_Click"/>
+
+    </Grid>
+</Window>

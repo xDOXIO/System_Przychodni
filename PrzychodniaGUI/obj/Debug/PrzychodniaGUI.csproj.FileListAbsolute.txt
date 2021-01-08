@@ -1,0 +1,75 @@
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csprojAssemblyReference.cache
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoListaLekarzy.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoListaUslug.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoPanelKlienta.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracja.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracjaZagraniczna.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoUmowWizyte.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\App.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI_MarkupCompile.cache
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI_MarkupCompile.lref
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\PrzychodniaGUI.exe.config
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\PrzychodniaGUI.exe
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\PrzychodniaGUI.pdb
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\MainWindow.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoListaLekarzy.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoListaUslug.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoPanelKlienta.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracja.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracjaZagraniczna.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoUmowWizyte.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.g.resources
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.Properties.Resources.resources
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csproj.GenerateResource.cache
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csproj.CoreCompileInputs.cache
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csproj.CopyComplete
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.exe
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.pdb
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoBladLogowania.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoBladLogowania.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoWizytaUmowiona.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoWizytaUmowiona.baml
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoBladUmow.g.cs
+C:\Users\Maciek\Desktop\projekt\projekt\PrzychodniaGUI\obj\Debug\OknoBladUmow.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\PrzychodniaGUI.exe.config
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\PrzychodniaGUI.exe
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\PrzychodniaGUI.pdb
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.exe
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.pdb
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.xml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\bin\Debug\SystemRejestracjiWPrzychodni.exe.config
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csprojAssemblyReference.cache
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\MainWindow.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoBladLogowania.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoBladUmow.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoListaLekarzy.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoListaUslug.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoPanelKlienta.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracja.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracjaZagraniczna.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoUmowWizyte.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoWizytaUmowiona.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\App.g.cs
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI_MarkupCompile.cache
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI_MarkupCompile.lref
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\MainWindow.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoBladLogowania.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoBladUmow.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoListaLekarzy.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoListaUslug.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoPanelKlienta.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracja.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoRejestracjaZagraniczna.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoUmowWizyte.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\OknoWizytaUmowiona.baml
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.g.resources
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.Properties.Resources.resources
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csproj.GenerateResource.cache
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.csproj.CopyComplete
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.exe
+C:\Users\48503\Desktop\Projekt PO\FINAL FOLDER\projekt\PrzychodniaGUI\obj\Debug\PrzychodniaGUI.pdb

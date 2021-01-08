@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SystemRejestracjiWPrzychodni</name>
+    </assembly>
+    <members>
+        <member name="T:SystemRejestracjiWPrzychodni.AmbulatoryjnaOpiekaSpecjalistyczna">
+            <summary>
+            Klasa reprezentująca usługę ambulatoryjnej opieki specjalnej, dziedzicząca po klasie Usluga
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.AmbulatoryjnaOpiekaSpecjalistyczna.#ctor">
+            <summary>
+            Konstruktor domyślny klasy ambulatoryjna opieka specjalistyczna
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.AmbulatoryjnaOpiekaSpecjalistyczna.#ctor(System.String,System.Decimal,System.Int32)">
+            <summary>
+            Konstruktor domyślny klasy AmbulatoryjnaOpiekaSpecjalistyczna
+            </summary>
+            <param name="nazwa">Nazwa usługi</param>
+            <param name="cena">Cena usługi</param>
+            <param name="czasTrwania">Czas trwania usługi</param>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.Lekarz">
+            <summary>
+            Klasa reprezentujaca lekarza
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Lekarz.Imie">
+            <summary>
+            Pole zawierajace imię lekarza
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Lekarz.Nazwisko">
+            <summary>
+            Pole zawierajace nazwisko lekarza
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Lekarz.DataUrodzenia">
+            <summary>
+            Pole zawierajace datę urodzenia lekarza
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Lekarz.#ctor">
+            <summary>
+            Konstruktor domyslny klasy lekarz
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Lekarz.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny klasy lekarz
+            </summary>
+            <param name="imie">Imie lekarza</param>
+            <param name="nazwisko">Nazwisko lekarza</param>
+            <param name="dataUrodzenia">Data urodzenia lekarza</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Lekarz.ToString">
+            <summary>
+            Metoda wypisujaca podstawowe informacje o lekarzu
+            </summary>
+            <returns>Opis lekarza</returns>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.LekarzSpecjalista">
+            <summary>
+            Klasa reprezentująca lekarza specjalistę, dziedzicząca po klasie Lekarz
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.LekarzSpecjalista.TypSpecjalizacji">
+            <summary>
+            Pole określające typ sepcjalizacji lekarza
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.LekarzSpecjalista.#ctor">
+            <summary>
+            Konstruktor domyślny, dziedziczący po klasie Lekarz
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.LekarzSpecjalista.#ctor(System.String,System.String,System.String,SystemRejestracjiWPrzychodni.Specjalizacja)">
+            <summary>
+            Konstruktor parametryczny, dziedziczacy po klasie Lekarz
+            </summary>
+            <param name="imie">Imię lekarza</param>
+            <param name="nazwisko">Nazwisko lekarza</param>
+            <param name="dataUrodzenia">Data urodzenia lekarza</param>
+            <param name="specjalizacja">Typ specjalizacji lekarza</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.LekarzSpecjalista.ToString">
+            <summary>
+            Metoda wypisująca podstowowe informacje o lekarzu specjaliście
+            </summary>
+            <returns>Opis lekarza specjalisty</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.LekarzSpecjalista.CompareTo(SystemRejestracjiWPrzychodni.LekarzSpecjalista)">
+            <summary>
+            Metoda porównująca dwóch lekarzy pod względem nazwiska i imienia
+            </summary>
+            <param name="other">Drugi lekarz</param>
+            <returns>1 jeśli lekarze, mają takie same imiona i nazwiska, w przeciwnym razie 0</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.LekarzSpecjalista.Clone">
+            <summary>
+            Metoda tworząca kopię lekarza
+            </summary>
+            <returns>Kopia lekarza</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.LekarzSpecjalista.Equals(SystemRejestracjiWPrzychodni.LekarzSpecjalista)">
+            <summary>
+            Metoda sprawdazjąca czy dwa obiekty lekarzy są takie same
+            </summary>
+            <param name="other">Drugi lekarz</param>
+            <returns>Prawda, jeśli lekarze mają takie samo imię i nazwisko</returns>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.Pacjent">
+            <summary>
+            Klasa opisująca pacjenta
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Pacjent.Imie">
+            <summary>
+            pole zawierajace imie pacjenta
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Pacjent.Nazwisko">
+            <summary>
+            pole zawierajace nazwisko
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Pacjent.Pesel">
+            <summary>
+            pole zawierajace pesel
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Pacjent.DataUrodzeniaPacjenta">
+            <summary>
+            Pole zawierające datę urodzenia pacjenta
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.#ctor">
+            <summary>
+            Konstruktor domyślny
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.#ctor(System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny wykorzystujący podstawowe dane
+            </summary>
+            <param name="imie">imie</param>
+            <param name="nazwisko">nazwisko</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            konstuktor parametryczny z peselem oraz z data urodzenia
+            </summary>
+            <param name="imie"></param>
+            <param name="nazwisko"></param>
+            <param name="pesel"></param>
+            <param name="dataUrodzenia"></param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.ToString">
+            <summary>
+            Metoda wypisująca podstawowe informacje o pacjencie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.Equals(SystemRejestracjiWPrzychodni.Pacjent)">
+            <summary>
+            Metoda sprawdzająca czy dwaj pacjenci są tacy sami
+            </summary>
+            <param name="other">Drugi pacjent</param>
+            <returns>Prawda, jeśli pacjenci mają taki sam numer PESEL</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.CompareTo(SystemRejestracjiWPrzychodni.Pacjent)">
+            <summary>
+            Metoda porównująca dwóch pacjentów pod względem nazwiska i imienia
+            </summary>
+            <param name="other">Drugi pacjent</param>
+            <returns>1, jesli pacjenci mają takie samo imie i nazwisko, w przeciwnym razie 0</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Pacjent.Clone">
+            <summary>
+            Metoda tworząca kopię pacjenta
+            </summary>
+            <returns>Kopia pacjenta</returns>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.PacjentZagraniczny">
+            <summary>
+            Klasa opisująca pacjenta zagranicznego
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.PacjentZagraniczny.NrEKUZ">
+            <summary>
+            Pole zawierające numer EKUZ pacjenta
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PacjentZagraniczny.#ctor">
+            <summary>
+            Konstruktor domyślny
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PacjentZagraniczny.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Kontruktor parametryczny z nr karty ekuz oraz data urodzenia
+            </summary>
+            <param name="imie"></param>
+            <param name="nazwisko"></param>
+            <param name="nrEKUZ"></param>
+            <param name="dataUrodzenia"></param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PacjentZagraniczny.ToString">
+            <summary>
+            Metoda wypisująca informacje o pacjencie zagranicznym
+            </summary>
+            <returns>Opis pacjenta zagranicznego</returns>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.PodstawowaOpiekaZdrowotna">
+            <summary>
+            Klasa reprezentująca usługę podstawowej opieki zdrowotnej, dziedzicząca po klasie Usluga
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PodstawowaOpiekaZdrowotna.#ctor">
+            <summary>
+            Konstruktor domyślny klasy podstawowa opieka zdrowotna
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PodstawowaOpiekaZdrowotna.#ctor(System.String,System.Decimal,System.Int32)">
+            <summary>
+            Konstruktor parametryczny klasy PodstawowaOpiekaZdrowotna
+            </summary>
+            <param name="nazwa">Nazwa usługi</param>
+            <param name="cena">Cena usługi</param>
+            <param name="czasTrwania">Czas trwania usługi</param>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.PracowniaDiagnostyczna">
+            <summary>
+            Klasa reprezentująca usługę pracowni diagnostycznej, dziedzicząca po klasie Usluga
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PracowniaDiagnostyczna.#ctor">
+            <summary>
+            Konstruktor domyślny klasy pracownia diagnostyczna
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.PracowniaDiagnostyczna.#ctor(System.String,System.Decimal,System.Int32)">
+            <summary>
+            Konstruktor parametryczny klasy PracowniaDiagnostyczna
+            </summary>
+            <param name="nazwa">Nazwa usługi</param>
+            <param name="cena">Cena usługi</param>
+            <param name="czasTrwania">Czas trwania usługi</param>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.Specjalizacja">
+            <summary>
+            Typ wyliczeniowy zawierający specjalizacje lekarzy
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.Chirurg">
+            <summary>
+            Specjalizacja chirurg
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.Dentysta">
+            <summary>
+            Specjalizacja dentysta
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.Kardiolog">
+            <summary>
+            Specjalizacja kardiolog
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.Okulista">
+            <summary>
+            Specjalizacja okulista
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.Pediatra">
+            <summary>
+            Specjalizacja pediatra
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.Laryngolog">
+            <summary>
+            Specjalizacja laryngolog
+            </summary>
+        </member>
+        <member name="F:SystemRejestracjiWPrzychodni.Specjalizacja.BRAK">
+            <summary>
+            brak specjalizacji
+            </summary>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.Przychodnia">
+            <summary>
+            Klasa opisująca przychodnię
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Przychodnia.Nazwa">
+            <summary>
+            Pole opisujące nazwę przychodni
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Przychodnia.Lekarze">
+            <summary>
+            Lista lekarzy
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Przychodnia.Uslugi">
+            <summary>
+            Lista usług
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Przychodnia.Wizyty">
+            <summary>
+            Lista wizyt
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Przychodnia.Pacjenci">
+            <summary>
+            Lista pacjentów
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.#ctor">
+            <summary>
+            Konstruktor nieparametryczny przychodni
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.#ctor(System.String)">
+            <summary>
+            Konstruktor parametryczny przychodni
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.DodajLekarza(SystemRejestracjiWPrzychodni.LekarzSpecjalista)">
+            <summary>
+            Metoda dodająca lekarza do listy lekarze
+            </summary>
+            <param name="l">Lekarz</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.DodajUsluge(SystemRejestracjiWPrzychodni.Usluga)">
+            <summary>
+            Metoda dodająca usługę do listy uslugi
+            </summary>
+            <param name="u">Usługa</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.UmowWizyte(SystemRejestracjiWPrzychodni.Wizyta)">
+            <summary>
+            Metoda dodająca wizytę do listy wizyty
+            </summary>
+            <param name="w">Wizyta</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.DodajPacjenta(SystemRejestracjiWPrzychodni.Pacjent)">
+            <summary>
+            Metoda dodająca pacjenta do listy pacjenci
+            </summary>
+            <param name="p">Pacjent</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.SortujLekarzyAlfabetycznie">
+            <summary>
+            Metoda sortująca lekarzy alfabetycznie
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.WypiszLekarzy">
+            <summary>
+            Metoda wypisująca listę lekarzy
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.SortujPacjentowAlfabetycznie">
+            <summary>
+            Metoda sortująca pacjentów alfabetycznie
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.WypiszPacjentow">
+            <summary>
+            Metoda wypisująca wszystkich pacjentów
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.SortujUslugiAlfabetycznie">
+            <summary>
+            Metoda sortująca usługi alfabetycznie
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.WypiszUslugi">
+            <summary>
+            Metoda wypisująca wszystkie usługi
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.SortujWizytyPoDacie">
+            <summary>
+            Metoda sortująca wizyty po dacie
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.WypiszWizyty">
+            <summary>
+            Metoda wypisująca wszystkie wizyty
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.SortujUslugiPoCenie">
+            <summary>
+            Metoda sortująca usługi po cenie
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.Clone">
+            <summary>
+            Metoda tworząca kopię przychodni
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.ZapiszXML(System.String)">
+            <summary>
+            Metoda zapisująca klasę przychodnia do pliku xml
+            </summary>
+            <param name="plik">plik z rozszerzeniem xml</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Przychodnia.OdczytajXML(System.String)">
+            <summary>
+            Metoda odczytująca z pliku xml klasę przychodnia
+            </summary>
+            <param name="plik">plik z rozszerzeniem xml</param>
+            <returns>Klasa przychodnia</returns>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.Usluga">
+            <summary>
+            Klasa reprezentująca usługę
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Usluga.Nazwa">
+            <summary>
+            Pole zawierające nazwę usługi
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Usluga.Cena">
+            <summary>
+            Pole zawierające cenę usługi
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Usluga.CzasTrwania">
+            <summary>
+            Pole opisujące czas trwania usługi
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Usluga.#ctor">
+            <summary>
+            Konstruktor domyślny klasy usługa
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Usluga.#ctor(System.String,System.Decimal,System.Int32)">
+            <summary>
+            Konstruktor parametryczny klasy Usluga
+            </summary>
+            <param name="nazwa">Nazwa usługi</param>
+            <param name="cena">Cena usługi</param>
+            <param name="czasTrwania">Czas trwania usługi</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Usluga.Equals(SystemRejestracjiWPrzychodni.Usluga)">
+            <summary>
+            Metoda sprawdzająca, czy dwie usługi są takie same
+            </summary>
+            <param name="other">Druga usługa</param>
+            <returns>Prawda, jeśli usługi mają takie same nazwy</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Usluga.CompareTo(SystemRejestracjiWPrzychodni.Usluga)">
+            <summary>
+            Metoda porównująca dwie usługi pod względem nazwy
+            </summary>
+            <param name="other">Druga usługa</param>
+            <returns>1, jeśli usługi są takie same, w przeciwnym razie 0</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Usluga.ToString">
+            <summary>
+            Metoda wypisująca podstawowe informacje o usłudze
+            </summary>
+            <returns>Opis usługi</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Usluga.Clone">
+            <summary>
+            Metoda tworząca kopię usługi
+            </summary>
+            <returns>Kopia usługi</returns>
+        </member>
+        <member name="T:SystemRejestracjiWPrzychodni.Wizyta">
+            <summary>
+            Klasa opisująca wizytę
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Wizyta.Pacjent">
+            <summary>
+            Pole zawierające pacjenta
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Wizyta.LekarzSpecjalista">
+            <summary>
+            Pole zawierające lekarza
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Wizyta.DataGodzinaWizyty">
+            <summary>
+            Pole zawierające datę oraz godzinę wizyty
+            </summary>
+        </member>
+        <member name="P:SystemRejestracjiWPrzychodni.Wizyta.Usluga">
+            <summary>
+            Pole zawierjące usługę
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Wizyta.#ctor">
+            <summary>
+            Konstruktor domyślny klasy wizyta
+            </summary>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Wizyta.#ctor(SystemRejestracjiWPrzychodni.Pacjent,SystemRejestracjiWPrzychodni.LekarzSpecjalista,SystemRejestracjiWPrzychodni.Usluga,System.String)">
+            <summary>
+            Konstruktor parametryczny Wizyty
+            </summary>
+            <param name="pacjent">Pacjent</param>
+            <param name="lekarz">Lekarz</param>
+            <param name="usluga">Usługa</param>
+            <param name="dataWizyty">Data i godzina wizyty</param>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Wizyta.ToString">
+            <summary>
+            Metoda wypisująca podstawowe informacje o wizycie
+            </summary>
+            <returns>Opis wizyty</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Wizyta.Equals(SystemRejestracjiWPrzychodni.Wizyta)">
+            <summary>
+            Metoda sprawdzajaca, czy dwie usługi są takie same
+            </summary>
+            <param name="other">Druga wizyta</param>
+            <returns>Prawda, jeśli 2 wizyty są takie same</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Wizyta.CompareTo(SystemRejestracjiWPrzychodni.Wizyta)">
+            <summary>
+            Metoda porównująca dwie wizyty pod względem daty i godziny
+            </summary>
+            <param name="other">Druga wizyta</param>
+            <returns>1, jeśli terminy wizyt są takie same, w przeciwnym wypadku 0</returns>
+        </member>
+        <member name="M:SystemRejestracjiWPrzychodni.Wizyta.Clone">
+            <summary>
+            Metoda tworząca kopię wizyty
+            </summary>
+            <returns>Kopia wizyty</returns>
+        </member>
+    </members>
+</doc>

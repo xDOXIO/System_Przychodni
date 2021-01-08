@@ -1,0 +1,14 @@
+﻿<Window x:Class="PrzychodniaGUI.OknoBladUmow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrzychodniaGUI"
+        mc:Ignorable="d"
+        Title="OknoBladUmow" Height="200" Width="380">
+    <Grid>
+        <Label Content="Coś poszło nie tak, spróbuj ponownie." HorizontalAlignment="Left" Height="76" Margin="17,25,-0.4,0" VerticalAlignment="Top" Width="357" FontSize="18"/>
+        <Button x:Name="btWroc" Content="Wróć" HorizontalAlignment="Left" Height="54" Margin="121,101,0,0" VerticalAlignment="Top" Width="119" FontSize="18" Click="btWroc_Click"/>
+
+    </Grid>
+</Window>
